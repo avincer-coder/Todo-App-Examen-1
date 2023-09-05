@@ -8,7 +8,8 @@ function Agregar(props){
     const capturarValor = (e)=>{
         SetTextoDeInput(e.target.value)
     }
-
+    
+    
 
 
     return(
