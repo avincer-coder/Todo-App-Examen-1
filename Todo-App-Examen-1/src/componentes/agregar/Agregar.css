@@ -1,0 +1,38 @@
+h1{
+    color: white;
+    margin: 0px 0px 20px 0px;
+}
+
+input[type="text"] {
+  width: 300px; 
+  height: 25px; 
+  margin-bottom: 15px;
+  border-radius: 5px;
+  padding-left: 3px;
+}
+
+.btn1{
+    all: initial;
+    border: 1px solid gold;
+    color: gold;
+    margin: 0px 0px 40px;
+    height: 25px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.btn1:hover{
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    color: black;
+}
+
+p{
+    color: white;
+}

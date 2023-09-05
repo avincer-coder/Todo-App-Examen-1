@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.contenedor_general{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;    
+}
+
+.contenido{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
