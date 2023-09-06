@@ -11,8 +11,8 @@ function App() {
         <Agregar 
           titulo = "Todo App"
           btn1 = "AGREGAR"/>
-        <Lista 
-            btn2 = "COSAS POR HACER"/>
+        {/* <Lista 
+            btn2 = "COSAS POR HACER"/> */}
       </section>
     </div>
   )

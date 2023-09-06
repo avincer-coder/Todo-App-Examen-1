@@ -1,6 +1,7 @@
 import { useState } from "react"
 import "./Lista.css"
 function Lista(props){
+    const ListaImportada = props.listaDePrueba
     const [cambioEstadoModal, SetCambioEstadoModal] = useState(false)
     const ProcesoModal = ()=>{
         SetCambioEstadoModal(!cambioEstadoModal)
@@ -12,7 +13,11 @@ function Lista(props){
             <button onClick={ProcesoModal} className="btn2">{props.btn2}</button>
             {cambioEstadoModal &&(
             <div>
-                <p>soy una prueba de modal</p>
+                <ul>
+
+                {ListaImportada.map((item, index) => (<li key={index}>{item}</li>))} 
+
+                </ul>
             </div>)}
         </>
     )
