@@ -15,11 +15,13 @@ function Agregar(props){
     // Cada que cambie necesito agregar nuevo valor
     // Mantener el array y agregarle algo nuevo caminar debe estar dentro de array 
     // Usar el operador Spread "..."
+    // La variable al inicio tiene Spread, agregar la nueva tarea
+ 
 
     
 
     const BtnAgregar = ()=>{
-        SetListaTextoInputV2(["Caminar"])
+        SetListaTextoInputV2([...listaTextoInputV2, textoDeInput])
         console.log(listaTextoInputV2)
     }
 
@@ -31,7 +33,8 @@ function Agregar(props){
             <button onClick={BtnAgregar} className="btn1">{props.btn1}</button>
             <Lista
             btn2 = "COSAS POR HACER"
-            listaDePrueba={listaTextoInputV2} />
+            listaDePrueba={listaTextoInputV2}
+            ListaNuevaSett = {SetListaTextoInputV2} />
         </>
     )
 }

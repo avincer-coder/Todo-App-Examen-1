@@ -7,6 +7,14 @@ function Lista(props){
         SetCambioEstadoModal(!cambioEstadoModal)
         console.log("Recibe modal")// Esta funcion debe cambiar de true a false ! Si es true niega lo mismo con false 
     }
+
+    const Borrar = (index)=>{
+        console.log(index)
+        const ListaNueva = [...ListaImportada]
+        ListaNueva.splice(index,1)
+        props.ListaNuevaSett(ListaNueva)
+        // Necesitamos un indice para no borrar lo que no es
+    }
     
     return(
         <> 
@@ -15,7 +23,11 @@ function Lista(props){
             <div>
                 <ul>
 
-                {ListaImportada.map((item, index) => (<li key={index}>{item}</li>))} 
+                {ListaImportada.map((item, index) => 
+                (
+                <li key={index}>{item} 
+                    <button onClick={()=>Borrar(index)}>Borrar</button>
+                </li>))} 
 
                 </ul>
             </div>)}
