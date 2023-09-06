@@ -1,4 +1,6 @@
 .btn2{
+    display: flex;
+    align-items: center;
     all: initial;
     border: 1px solid gold;
     color: gold;
@@ -9,6 +11,10 @@
     background-color: black;
     border-radius: 5px;
     font-size: 12px;
+}
+
+.Icon{
+    width: 10px;
 }
 
 .btn2:hover{

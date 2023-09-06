@@ -18,11 +18,15 @@ function Lista(props){
     
     return(
         <> 
-            <button onClick={ProcesoModal} className="btn2">{props.btn2}</button>
+            <button onClick={ProcesoModal} className="btn2">
+                <p>{props.btn2}</p>
+                <div className="Icon" style={{transform:"rotate(10deg)"}}>
+                    <i className="bi bi-caret-down-fill" style={{ color: 'cornflowerblue'}} ></i>
+                </div>
+            </button>
             {cambioEstadoModal &&(
             <div>
                 <ul>
-
                 {ListaImportada.map((item, index) => 
                 (
                 <li key={index}>{item} 
