@@ -21,15 +21,17 @@ function Agregar(props){
     
 
     const BtnAgregar = ()=>{
+
         SetListaTextoInputV2([...listaTextoInputV2, textoDeInput])
         console.log(listaTextoInputV2)
+        SetTextoDeInput("")
     }
 
     return(
         <>
             <h1>{props.titulo}</h1>
             <input onChange={capturarValor} value={textoDeInput} type="text" placeholder="Ingrese una nueva actividad..." />
-            <p>{textoDeInput}</p>
+            
             <button onClick={BtnAgregar} className="btn1">{props.btn1}</button>
             <Lista
             btn2 = "COSAS POR HACER"

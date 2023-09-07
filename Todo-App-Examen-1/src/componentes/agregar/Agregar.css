@@ -13,7 +13,7 @@ input[type="text"] {
 
 .btn1{
     all: initial;
-    border: 1px solid gold;
+    border: 2px solid gold;
     color: gold;
     margin: 0px 0px 40px;
     height: 25px;
@@ -29,7 +29,7 @@ input[type="text"] {
 .btn1:hover{
     cursor: pointer;
     background-color: rgb(255, 255, 255);
-    border: 1px solid black;
+    border: 2px solid black;
     color: black;
 }
 
