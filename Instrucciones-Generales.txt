@@ -1,0 +1,30 @@
+1. Crear carpetas que faltan
+2. Limpiar y probar archivos
+3. Instalar Git para todos
+    3.1 Iniciar Git (git init)
+    3.2 Usar Git bash
+    3.2.1 Hacer un commit 
+    3.3 Crear y conectar repositorio remoto
+    3.4 Abrir Git Hub
+    3.5 Copiar de Git Hub y pegar
+4. Practica 1 maquetacion html y css
+    4.1 Practica icono (No lo se hacer)
+    4.2 Importat font-size
+5. Practica 3 guardar imagen en carpeta correcta en "public"
+6. Practica 4 Dominar bootstrap
+7. Mini proyecto buscar la carpeta que ya esta avanzada
+8. Buscar y copiar ese proyecto en carpeta Practicas-Semana-1
+9. Proyecto 5 arreglarlo (final)
+    9.1 Documentarlo
+    9.2 Iniciar Git
+    9.3 Logica para contar styles renderizados 
+    9.4 renderizar dos listas dependiendo un condicional
+10. Proyecto examen (Buscar carpeta de este examen)
+
+
+
+
+ICONOS
+Instalar iconos:
+npm i bootstrap-icons
+(Usarlos por web-font)
